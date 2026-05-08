@@ -1,0 +1,12 @@
+If(IsBlank(selectedTab) && ThisItem.id = 1, RGBA(232, 113, 49, 1), If(selectedTab = ThisItem.id, RGBA(232, 113, 49, 1), ColorFade(Self.Fill, -10%)))
+
+orange
+
+If(IsBlank(selectedTab) && ThisItem.id = 1, RGBA(209, 213, 219, 1), If(selectedTab = ThisItem.id, RGBA(233, 113, 50, 1), RGBA(209, 213, 219, 1)))
+
+grey
+orange
+
+FILL
+
+If(IsBlank(selectedTab) && ThisItem.id = 1, RGBA(209, 213, 219, 1), If(selectedTab = ThisItem.id, RGBA(233, 113, 50, 1), RGBA(209, 213, 219, 1)))
