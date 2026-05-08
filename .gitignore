@@ -4,3 +4,23 @@
 .vscode/
 .ipynb_checkpoints/
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# Fabric cache
+.fabric/
+
+# OS files
+.DS_Store
+Thumbs.db
+
